@@ -1,0 +1,13 @@
+D:\Edmonds\CSharp\SectorCalculator\SectorCalculator\obj\Debug\netcoreapp3.1\SectorCalculator.csprojAssemblyReference.cache
+D:\Edmonds\CSharp\SectorCalculator\SectorCalculator\obj\Debug\netcoreapp3.1\SectorCalculator.AssemblyInfoInputs.cache
+D:\Edmonds\CSharp\SectorCalculator\SectorCalculator\obj\Debug\netcoreapp3.1\SectorCalculator.AssemblyInfo.cs
+D:\Edmonds\CSharp\SectorCalculator\SectorCalculator\obj\Debug\netcoreapp3.1\SectorCalculator.csproj.CoreCompileInputs.cache
+D:\Edmonds\CSharp\SectorCalculator\SectorCalculator\bin\Debug\netcoreapp3.1\SectorCalculator.exe
+D:\Edmonds\CSharp\SectorCalculator\SectorCalculator\bin\Debug\netcoreapp3.1\SectorCalculator.deps.json
+D:\Edmonds\CSharp\SectorCalculator\SectorCalculator\bin\Debug\netcoreapp3.1\SectorCalculator.runtimeconfig.json
+D:\Edmonds\CSharp\SectorCalculator\SectorCalculator\bin\Debug\netcoreapp3.1\SectorCalculator.runtimeconfig.dev.json
+D:\Edmonds\CSharp\SectorCalculator\SectorCalculator\bin\Debug\netcoreapp3.1\SectorCalculator.dll
+D:\Edmonds\CSharp\SectorCalculator\SectorCalculator\bin\Debug\netcoreapp3.1\SectorCalculator.pdb
+D:\Edmonds\CSharp\SectorCalculator\SectorCalculator\obj\Debug\netcoreapp3.1\SectorCalculator.dll
+D:\Edmonds\CSharp\SectorCalculator\SectorCalculator\obj\Debug\netcoreapp3.1\SectorCalculator.pdb
+D:\Edmonds\CSharp\SectorCalculator\SectorCalculator\obj\Debug\netcoreapp3.1\SectorCalculator.genruntimeconfig.cache

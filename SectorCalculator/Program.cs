@@ -29,6 +29,8 @@ namespace SectorCalculator
             calculate(2048, 4096);
             calculate(32768, 513);
             calculate(32768, 80000);
+            calculate(512, 7680);
+            calculate(512, 15360);
             Console.ReadLine();
         }
 

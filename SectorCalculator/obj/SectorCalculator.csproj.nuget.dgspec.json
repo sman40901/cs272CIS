@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Edmonds\\CSharp\\SectorCalculator\\SectorCalculator\\SectorCalculator.csproj": {}
+    "D:\\Edmonds\\CSharp\\cs272CIS\\SectorCalculator\\SectorCalculator.csproj": {}
   },
   "projects": {
-    "D:\\Edmonds\\CSharp\\SectorCalculator\\SectorCalculator\\SectorCalculator.csproj": {
+    "D:\\Edmonds\\CSharp\\cs272CIS\\SectorCalculator\\SectorCalculator.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Edmonds\\CSharp\\SectorCalculator\\SectorCalculator\\SectorCalculator.csproj",
+        "projectUniqueName": "D:\\Edmonds\\CSharp\\cs272CIS\\SectorCalculator\\SectorCalculator.csproj",
         "projectName": "SectorCalculator",
-        "projectPath": "D:\\Edmonds\\CSharp\\SectorCalculator\\SectorCalculator\\SectorCalculator.csproj",
+        "projectPath": "D:\\Edmonds\\CSharp\\cs272CIS\\SectorCalculator\\SectorCalculator.csproj",
         "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
-        "outputPath": "D:\\Edmonds\\CSharp\\SectorCalculator\\SectorCalculator\\obj\\",
+        "outputPath": "D:\\Edmonds\\CSharp\\cs272CIS\\SectorCalculator\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "c:\\Microsoft\\Xamarin\\NuGet\\"

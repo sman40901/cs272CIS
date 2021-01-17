@@ -6,7 +6,7 @@ namespace SectorCalculator
 {
     public class DiskCluster
     {
-        public double calculatePhysicalSize(double clusterSize, double fileSize)
+        public double calculateClusterUsed(double clusterSize, double fileSize)
         {
             // determine if cluster required is whole number or fraction
             // if required cluster is fraction round it up to next number
@@ -24,10 +24,16 @@ namespace SectorCalculator
             */
         }
 
+        public double calculatePhysicalSize(double clusterSize, double fileSize)
+        {
+            double reqCLuster = calculateClusterUsed(clusterSize, fileSize);
+            return (clusterSize * reqCLuster);
+        }
+
         public double calculateSlackSpace(double clusterSize, double fileSize)
         {
-            double reqCLuster = calculatePhysicalSize(clusterSize, fileSize);
-            return (clusterSize * reqCLuster) - fileSize;
+           
+            return calculatePhysicalSize(clusterSize, fileSize) - fileSize;
         }
     }
 }

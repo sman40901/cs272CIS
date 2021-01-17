@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "PwviF4D6QCMQhpPHb0ofrtu3raY57lf5umE1UVZNBY6mHHHEd/gTQDY0WaEbWatHodpltvrAwzD46VoDww5Xzw==",
+  "dgSpecHash": "HGQudlOAcgmnodMgR1KrwMMHFbg4jTKjqLvvuWUEfe+k8QUJjtdONFUKOEUXrsV8d21TwXm2ay1ootRXykCxVw==",
   "success": true,
-  "projectFilePath": "D:\\Edmonds\\CSharp\\SectorCalculator\\SectorCalculator\\SectorCalculator.csproj",
+  "projectFilePath": "D:\\Edmonds\\CSharp\\cs272CIS\\SectorCalculator\\SectorCalculator.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

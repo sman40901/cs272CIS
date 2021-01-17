@@ -31,9 +31,16 @@ namespace SectorCalculator
             calculate(32768, 80000);
             calculate(512, 7680);
             calculate(512, 15360);
+            calculate(32768, 4534);
+            calculateRamSlack(4195);
             Console.ReadLine();
         }
 
+        public static void calculateRamSlack(double logicalFileSizeInBytes)
+        {
+            Console.Write("Calculate Ram Slack ");
+            calculate(512, logicalFileSizeInBytes);
+        }
         public static void calculate(double clusterSize, double logicalFileSize)
         {
             DiskCluster cluster = new DiskCluster();

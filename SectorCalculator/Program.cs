@@ -7,50 +7,18 @@ namespace SectorCalculator
         static void Main(string[] args)
         {
             DiskCluster cluster = new DiskCluster();
-            /*
-            Console.WriteLine(cluster.calculatePhysicalSize(2,4));
-            Console.WriteLine(cluster.calculateSlackSpace(4096, 4195)); //9516
-            Console.WriteLine(cluster.calculatePhysicalSize(512, 9516));
-            Console.WriteLine(cluster.calculateSlackSpace(512, 9516));*/
+            
+            cluster.calculateSpaceSize(4096, 4195);
+            cluster.calculateSpaceSize(32768, 4195);
+            cluster.calculateSpaceSize(2048, 4096);
+            cluster.calculateSpaceSize(32768, 513);
+            cluster.calculateSpaceSize(32768, 80000);
+            cluster.calculateSpaceSize(512, 7680);
+            cluster.calculateSpaceSize(512, 15360);
+            cluster.calculateSpaceSize(32768, 4534);
+            cluster.calculateRamSlack(4195);
 
-
-            /*
-            Console.WriteLine(cluster.calculateSlackSpace(4096, 4195));
-
-            Console.WriteLine(cluster.calculatePhysicalSize(32768, 4195));
-            Console.WriteLine(cluster.calculateSlackSpace(32768, 4195));
-
-            Console.WriteLine(cluster.calculatePhysicalSize(4096, 2048));
-            Console.WriteLine(cluster.calculateSlackSpace(4096, 2048));
-
-            */
-            calculate(4096, 4195);
-            calculate(32768, 4195);
-            calculate(2048, 4096);
-            calculate(32768, 513);
-            calculate(32768, 80000);
-            calculate(512, 7680);
-            calculate(512, 15360);
-            calculate(32768, 4534);
-            calculateRamSlack(4195);
             Console.ReadLine();
-        }
-
-        public static void calculateRamSlack(double logicalFileSizeInBytes)
-        {
-            Console.Write("Calculate Ram Slack ");
-            calculate(512, logicalFileSizeInBytes);
-        }
-        public static void calculate(double clusterSize, double logicalFileSize)
-        {
-            DiskCluster cluster = new DiskCluster();
-            Console.WriteLine("******");
-            Console.WriteLine("Logical File Size = " + logicalFileSize);
-            Console.WriteLine("Cluster Size = " + clusterSize);
-            Console.WriteLine("Physical File Size = " + cluster.calculatePhysicalSize(clusterSize, logicalFileSize));
-            Console.WriteLine("Slack Space = " + cluster.calculateSlackSpace(clusterSize, logicalFileSize));
-            Console.WriteLine("******" );
-
         }
     }
 }

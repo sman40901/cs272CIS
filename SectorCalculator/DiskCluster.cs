@@ -35,5 +35,21 @@ namespace SectorCalculator
            
             return calculatePhysicalSize(clusterSize, fileSize) - fileSize;
         }
+
+        public void calculateRamSlack(double logicalFileSizeInBytes)
+        {
+            Console.Write("Calculate Ram Slack ");
+            calculateSlackSpace(512, logicalFileSizeInBytes);
+        }
+        public void calculateSpaceSize(double clusterSize, double logicalFileSize)
+        {
+            Console.WriteLine("******");
+            Console.WriteLine("Logical File Size = " + logicalFileSize);
+            Console.WriteLine("Cluster Size = " + clusterSize);
+            Console.WriteLine("Physical File Size = " + calculatePhysicalSize(clusterSize, logicalFileSize));
+            Console.WriteLine("Slack Space = " + calculateSlackSpace(clusterSize, logicalFileSize));
+            Console.WriteLine("******");
+
+        }
     }
 }

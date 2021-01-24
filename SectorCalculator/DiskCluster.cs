@@ -39,7 +39,7 @@ namespace SectorCalculator
         public void calculateRamSlack(double logicalFileSizeInBytes)
         {
             Console.Write("Calculate Ram Slack ");
-            calculateSlackSpace(512, logicalFileSizeInBytes);
+            calculateSpaceSize(512, logicalFileSizeInBytes);
         }
         public void calculateSpaceSize(double clusterSize, double logicalFileSize)
         {
